@@ -1,0 +1,112 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("http://selab.hanyang.ac.kr/courses/cse326/2017/labs/images/3/blueTextureBG.jpg");
+}
+
+.box {
+    border-style: solid;
+    border-width: 5px;
+    margin: 0px;
+}
+
+h2.box2 {
+    border-style: solid;
+}
+
+body > div.box{
+    /*
+    border-color: green;
+    */
+    border-color: white;
+    border-width: 10px;
+    background-color: white;
+
+    overflow: hidden;
+}
+
+header.box{
+    border-color: red;
+    background-color: #1D2475;
+    color: white;
+    border: none;
+    text-align: right;
+}
+
+h2.box{
+    border-color: orange;
+    font-size: 14pt;
+    color: #CCCCCC;
+    border: none;
+}
+
+section.box{
+    /*
+    border-color: blue;
+    */
+    border-color: #1D2475;
+    border-radius: 15px;
+    border-width: 4px;
+    background-color: #99CCFF;
+    padding: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+
+    margin-left: 10px;
+}
+
+section p{
+    text-align: justify;
+}
+
+h2 + p{
+    float: right;   
+}
+
+em.box{
+    font-style: normal;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    /*
+    border-color: purple;
+    */
+    border-color: blue;
+    border-style: dashed;
+}
+
+nav {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #3366CC;
+    float: left;
+}
+
+article{
+    float: right;
+    width: calc(100% - 230px);
+}
+
+nav h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #B8B8B8;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li::before{
+    content: "• ";
+    color: #B8B8B8;
+}
+
+
+footer{
+    clear: both;
+}
+
+* *:not(article):not(footer):not(ul):not(.box):not(#no):hover{
+    background-color: #A6CE39;
+}
+
