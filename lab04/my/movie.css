@@ -1,0 +1,166 @@
+/* 2013043177 컴퓨터공학 김주호 */
+
+body {
+    background-image: url(background.png);
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: inherit; padding: inherit;
+}
+
+/* image banner */
+body > :first-child {
+    text-align: center;
+    background-image: url(bannerbg.png);
+    background-repeat: repeat-x;
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+/* content */
+body > :nth-child(3) {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px gray solid;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* right content */
+body > :nth-child(3) > :first-child {
+    float: right;
+    width: 250px;
+    background-color: #A2B964;
+}
+
+/* movie information */
+dl{
+    margin: 10pt;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+dt{
+    font-weight: bold;
+}
+
+dd + dt{
+    margin-top: 10pt;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0pt;
+}
+
+/* left content */
+body > :nth-child(3) > :nth-child(2)  {
+    float: left;
+    width: 550px;
+}
+
+/* percent */
+body > :nth-child(3) > :nth-child(2) > :first-child {
+    height: 83px;
+    background-image: url(rbg.png);
+    background-repeat: repeat-x;
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+}
+body > :nth-child(3) > :nth-child(2) > :first-child img{
+    vertical-align: bottom;
+}
+
+/* review */
+body > :nth-child(3) > :nth-child(2) > :nth-child(2) > div{
+    float: left;
+    width: 47%;
+    margin-left: 2%;
+}
+
+body > :nth-child(3) > :nth-child(2) > :nth-child(2) > div > div{
+    margin-bottom: 20pt;
+}
+body > :nth-child(3) > :nth-child(2) > :nth-child(2) > div > div > p{
+    word-break: keep-all;
+    overflow: hidden;
+}
+
+body > :nth-child(3) > :nth-child(2) > :nth-child(2) > div > div > p img {
+    float: left;
+    margin-right: 5px;
+}
+
+body > :nth-child(3) > :nth-child(2) > :nth-child(2) > div > div > p:first-child{
+    padding: 8px;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border: 2px gray solid;
+    border-radius: 10px;
+}
+
+body > :nth-child(3) > :nth-child(2) > :nth-child(2) > div > div > p:nth-child(2) span{
+    font-style: italic;
+}
+
+/*
+body > :nth-child(3) > :nth-child(2) > :nth-child(2){
+    column-count: 2;
+}
+
+body > :nth-child(3) > :nth-child(2) > :nth-child(2) div{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20pt;
+    overflow: hidden;
+}
+
+body > :nth-child(3) > :nth-child(2) > :nth-child(2) div p{
+    overflow: hidden;
+}
+
+body > :nth-child(3) > :nth-child(2) > :nth-child(2) div p img{
+    float: left;
+    margin-right: 5px;
+}
+
+body > :nth-child(3) > :nth-child(2) > :nth-child(2) div p:first-child{
+    padding: 8px;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border: 2px gray solid;
+    border-radius: 10px;
+}
+
+
+body > :nth-child(3) > :nth-child(2) > :nth-child(2) div p:nth-child(2) span{
+    font-style: italic;
+}
+*/
+
+/* page index */
+body > :nth-child(3) > :nth-child(3) {
+    clear: both;
+    background-color: #A2B964;
+    margin: inherit;
+    padding: 5px;
+    text-align: center;
+}
+
+/* W3C images */
+body > :nth-child(4) {
+    position:fixed;
+    right:0%;
+    bottom:0%;
+}
+
+body > :nth-child(4) img{
+    opacity: 0.5;
+}
