@@ -1,4 +1,4 @@
--- 2013043177 CSE kimjuho;
+
 SET names utf8;
 CREATE DATABASE College;
 USE College
